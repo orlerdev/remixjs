@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/index.jsx"],
+  "sourcesContent": ["export default function Home() {\n  return (\n    <div>\n      <h1>Welcome to Remix</h1>\n      <h3>This is the home page for the app</h3>\n    </div>\n  )\n}\n"],
+  "mappings": ";;;;;;AAAA;AAAe,SAAR,OAAwB;AAC7B,SACE,mDAAC;AAAA,IACC;AAAA,yDAAC;AAAA,QAAG;AAAA,SAAJ;AAAA;AAAA;AAAA;AAAA,aAAoB;AAAA,MACpB,mDAAC;AAAA,QAAG;AAAA,SAAJ;AAAA;AAAA;AAAA;AAAA,aAAqC;AAAA;AAAA,KAFvC;AAAA;AAAA;AAAA;AAAA,SAGA;AAEJ;",
+  "names": []
+}

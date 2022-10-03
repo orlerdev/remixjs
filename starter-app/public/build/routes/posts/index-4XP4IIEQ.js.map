@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../app/routes/posts/index.jsx"],
+  "sourcesContent": ["export default function () {\n  return (\n    <div className=''>\n\n    </div>\n  )\n}\n"],
+  "mappings": ";;;;;;;;AAAA;AAAe,SAAR,gBAAoB;AACzB,SACE,mDAAC;AAAA,IAAI,WAAU;AAAA,KAAf;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
+  "names": []
+}

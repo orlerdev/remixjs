@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../app/routes/posts/index.jsx"],
+  "sourcesContent": ["import { useLoaderData } from '@remix-run/react'\n\n\nexport const loader = () => {\n  console.log(1,2,3 )\n  return {\n\n  }\n}\n\nexport default function PostItems() {\n\n\n  return (\n    <div className=''>\n    <h1>Posts</h1>\n    </div>\n  )\n}\n"],
+  "mappings": ";;;;;;;AAAA;AAUe,SAAR,YAA6B;AAGlC,SACE,mDAAC;AAAA,IAAI,WAAU;AAAA,IACf,6DAAC;AAAA,MAAG;AAAA,OAAJ;AAAA;AAAA;AAAA;AAAA,WAAS;AAAA,KADT;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
+  "names": []
+}

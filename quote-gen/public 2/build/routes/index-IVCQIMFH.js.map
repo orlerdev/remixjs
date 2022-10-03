@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/index.jsx"],
+  "sourcesContent": ["export default function Index() {\n  return (\n    <div className='quote-card'>\n      <h1>Here's your random quote</h1>\n      <div className='text'>Quote Text</div>\n      <div className='author'>Quote Author</div>\n      \n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;AAAA;AAAe,SAAR,QAAyB;AAC9B,SACE,mDAAC;AAAA,IAAI,WAAU;AAAA,IACb;AAAA,yDAAC;AAAA,QAAG;AAAA,SAAJ;AAAA;AAAA;AAAA;AAAA,aAA4B;AAAA,MAC5B,mDAAC;AAAA,QAAI,WAAU;AAAA,QAAO;AAAA,SAAtB;AAAA;AAAA;AAAA;AAAA,aAAgC;AAAA,MAChC,mDAAC;AAAA,QAAI,WAAU;AAAA,QAAS;AAAA,SAAxB;AAAA;AAAA;AAAA;AAAA,aAAoC;AAAA;AAAA,KAHtC;AAAA;AAAA;AAAA;AAAA,SAKA;AAEJ;",
+  "names": []
+}

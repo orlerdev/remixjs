@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../app/routes/posts/index.jsx"],
+  "sourcesContent": ["export default function PostItems() {\n  return (\n    <div className=''>\n    <h1>Posts</h1>\n    </div>\n  )\n}\n"],
+  "mappings": ";;;;;;AAAA;AAAe,SAAR,YAA6B;AAClC,SACE,mDAAC;AAAA,IAAI,WAAU;AAAA,IACf,6DAAC;AAAA,MAAG;AAAA,OAAJ;AAAA;AAAA;AAAA;AAAA,WAAS;AAAA,KADT;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
+  "names": []
+}

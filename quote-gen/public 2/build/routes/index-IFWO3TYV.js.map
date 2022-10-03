@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/index.jsx"],
+  "sourcesContent": ["import { quotesDb } from '~/utils/quotesDb'\nimport { useLoaderData } from '@remix-run/react'\n\n\nexport const loader = async () => {\n  return { quotesDb }\n}\n\n\nexport default function QuoteCard() {\n  const { quotes } = useLoaderData()\n\n  return (\n    <div className='quote-box'>\n      <h1>Here's your random quote</h1>\n      <div className='text'>Quote Text</div>\n      <div className='author'>Quote Author</div>\n      <button className='new-quote'>New Quote</button>\n      <a href=\"twitter.com/intent/tweet\" className='tweet-quote'>Tweet Quote</a>\n    </div>\n  );\n}\n\n\n// function randomQuote(quotes) {\n//   return quotes[Math.floor(Math.random() * quotes.length)]\n// }\n"],
+  "mappings": ";;;;;;;AAAA;AASe,SAAR,YAA6B;AAClC,QAAM,EAAE,OAAO,IAAI,cAAc;AAEjC,SACE,mDAAC;AAAA,IAAI,WAAU;AAAA,IACb;AAAA,yDAAC;AAAA,QAAG;AAAA,SAAJ;AAAA;AAAA;AAAA;AAAA,aAA4B;AAAA,MAC5B,mDAAC;AAAA,QAAI,WAAU;AAAA,QAAO;AAAA,SAAtB;AAAA;AAAA;AAAA;AAAA,aAAgC;AAAA,MAChC,mDAAC;AAAA,QAAI,WAAU;AAAA,QAAS;AAAA,SAAxB;AAAA;AAAA;AAAA;AAAA,aAAoC;AAAA,MACpC,mDAAC;AAAA,QAAO,WAAU;AAAA,QAAY;AAAA,SAA9B;AAAA;AAAA;AAAA;AAAA,aAAuC;AAAA,MACvC,mDAAC;AAAA,QAAE,MAAK;AAAA,QAA2B,WAAU;AAAA,QAAc;AAAA,SAA3D;AAAA;AAAA;AAAA;AAAA,aAAsE;AAAA;AAAA,KALxE;AAAA;AAAA;AAAA;AAAA,SAMA;AAEJ;",
+  "names": []
+}

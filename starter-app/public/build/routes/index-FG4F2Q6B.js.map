@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/index.jsx"],
+  "sourcesContent": ["export default function Home() {\n  return (\n    <div>\n      <h1>Random Quote Generator</h1>\n    </div>\n  )\n}\n"],
+  "mappings": ";;;;;;AAAA;AAAe,SAAR,OAAwB;AAC7B,SACE,mDAAC;AAAA,IACC,6DAAC;AAAA,MAAG;AAAA,OAAJ;AAAA;AAAA;AAAA;AAAA,WAA0B;AAAA,KAD5B;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
+  "names": []
+}

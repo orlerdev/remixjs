@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../app/routes/quotes/$quoteId.jsx"],
+  "sourcesContent": ["import { useLoaderData } from '@remix-run/react'\nimport { db } from '~/utils/db.server'\n\nexport const loader = async ({ params }) => {\n  const quote = await db.quote.findUnique({\n    where: { id: params.quoteId }\n  })\n\n  if (!quote) throw new Error('Quote not found')\n\n  const data = { quote }\n\n  return data\n}\nexport default function Quote() {\nconst {quote} = useLoaderData()\n\n  return (\n    <div className=''>\n      <h1>{quote.quoteText}</h1>\n    </div>\n  )\n}\n"],
+  "mappings": ";;;;;;;;;;;;AACA,gBAAmB;AADnB;AAce,SAAR,QAAyB;AAChC,QAAM,EAAC,MAAK,IAAI,cAAc;AAE5B,SACE,mDAAC;AAAA,IAAI,WAAU;AAAA,IACb,6DAAC;AAAA,MAAI,gBAAM;AAAA,OAAX;AAAA;AAAA;AAAA;AAAA,WAAqB;AAAA,KADvB;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
+  "names": []
+}

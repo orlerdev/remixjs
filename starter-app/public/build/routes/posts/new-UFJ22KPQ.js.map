@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../app/routes/posts/new.jsx"],
+  "sourcesContent": ["import { Link } from '@remix-run/react'\n\nexport default function NewPosts() {\n  return (\n    <>\n      <div className='page-header'>\n        <h1>New Posts</h1>\n        <Link to='/posts' className='btn btn-reverse'>\n          Back\n        </Link>\n      </div>\n    </>\n  )\n}\n"],
+  "mappings": ";;;;;;;;;AAAA;AAEe,SAAR,WAA4B;AACjC,SACE;AAAA,IACE,6DAAC;AAAA,MAAI,WAAU;AAAA,MACb;AAAA,2DAAC;AAAA,UAAG;AAAA,WAAJ;AAAA;AAAA;AAAA;AAAA,eAAa;AAAA,QACb,mDAAC;AAAA,UAAK,IAAG;AAAA,UAAS,WAAU;AAAA,UAAkB;AAAA,WAA9C;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA;AAAA,OAJF;AAAA;AAAA;AAAA;AAAA,WAKA;AAAA,KANF;AAAA;AAAA;AAAA;AAAA,SAOA;AAEJ;",
+  "names": []
+}

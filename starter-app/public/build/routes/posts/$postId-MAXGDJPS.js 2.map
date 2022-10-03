@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../app/routes/posts/$postId.jsx"],
+  "sourcesContent": ["export default function Post() {\n  return (\n    <div className=''>\n      <h1>Post</h1>\n    </div>\n  )\n}\n"],
+  "mappings": ";;;;;;AAAA;AAAe,SAAR,OAAwB;AAC7B,SACE,mDAAC;AAAA,IAAI,WAAU;AAAA,IACb,6DAAC;AAAA,MAAG;AAAA,OAAJ;AAAA;AAAA;AAAA;AAAA,WAAQ;AAAA,KADV;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
+  "names": []
+}

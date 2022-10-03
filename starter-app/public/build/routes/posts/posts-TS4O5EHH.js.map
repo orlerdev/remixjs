@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../app/routes/posts/posts.jsx"],
+  "sourcesContent": ["import { Outlet } from '@remix-run/react'\n\nexport default function Posts() {\n  return (\n    <div className=''>\n      <h1>This is the posts route</h1>\n      <Outlet />\n    </div>\n  )\n}\n"],
+  "mappings": ";;;;;;;;;;;AAAA;AAEe,SAAR,QAAyB;AAC9B,SACE,mDAAC;AAAA,IAAI,WAAU;AAAA,IACb;AAAA,yDAAC;AAAA,QAAG;AAAA,SAAJ;AAAA;AAAA;AAAA;AAAA,aAA2B;AAAA,MAC3B,mDAAC,YAAD;AAAA;AAAA;AAAA;AAAA,aAAQ;AAAA;AAAA,KAFV;AAAA;AAAA;AAAA;AAAA,SAGA;AAEJ;",
+  "names": []
+}

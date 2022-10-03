@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../app/routes/quotes/$postId.jsx"],
+  "sourcesContent": ["import { useParams } from '@remix-run/react'\n\nexport default function Post() {\n  const params = useParams()\n\n  return (\n    <div className=''>\n      <h1>Post {params.postId}</h1>\n    </div>\n  )\n}\n"],
+  "mappings": ";;;;;;;;;AAAA;AAEe,SAAR,OAAwB;AAC7B,QAAM,SAAS,UAAU;AAEzB,SACE,mDAAC;AAAA,IAAI,WAAU;AAAA,IACb,6DAAC;AAAA,MAAG;AAAA;AAAA,QAAM,OAAO;AAAA;AAAA,OAAjB;AAAA;AAAA;AAAA;AAAA,WAAwB;AAAA,KAD1B;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
+  "names": []
+}

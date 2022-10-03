@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../app/root.jsx"],
+  "sourcesContent": ["export default function App() {\n  return (\n    <h1>My App</h1>\n  )\n}\n"],
+  "mappings": ";;;;;;;;AAAA;AAAe,SAAR,MAAuB;AAC5B,SACE,mDAAC;AAAA,IAAG;AAAA,KAAJ;AAAA;AAAA;AAAA;AAAA,SAAU;AAEd;",
+  "names": []
+}

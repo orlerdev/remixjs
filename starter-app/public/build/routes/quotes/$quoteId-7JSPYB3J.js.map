@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../app/routes/quotes/$quoteId.jsx"],
+  "sourcesContent": ["import { Link, useLoaderData } from '@remix-run/react'\nimport { db } from '~/utils/db.server'\n\nexport const loader = async ({ params }) => {\n  const quote = await db.quote.findUnique({\n    where: { id: params.quoteId }\n  })\n\n  if (!quote) throw new Error('Quote not found')\n\n  const data = { quote }\n\n  return data\n}\nexport default function Quote() {\n  const { quote } = useLoaderData()\n\n  return (\n    <div>\n      <div className='page-header'>\n        <h3>{quote.quoteText}</h3>\n        <p>{quote.quoteAuthor}</p>\n        <Link to='/posts' className='btn btn-reverse'>\n          Back\n        </Link>\n      </div>\n    </div>\n  )\n}\n"],
+  "mappings": ";;;;;;;;;;;;;AACA,gBAAmB;AADnB;AAce,SAAR,QAAyB;AAC9B,QAAM,EAAE,MAAM,IAAI,cAAc;AAEhC,SACE,mDAAC;AAAA,IACC,6DAAC;AAAA,MAAI,WAAU;AAAA,MACb;AAAA,2DAAC;AAAA,UAAI,gBAAM;AAAA,WAAX;AAAA;AAAA;AAAA;AAAA,eAAqB;AAAA,QACrB,mDAAC;AAAA,UAAG,gBAAM;AAAA,WAAV;AAAA;AAAA;AAAA;AAAA,eAAsB;AAAA,QACtB,mDAAC;AAAA,UAAK,IAAG;AAAA,UAAS,WAAU;AAAA,UAAkB;AAAA,WAA9C;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA;AAAA,OALF;AAAA;AAAA;AAAA;AAAA,WAMA;AAAA,KAPF;AAAA;AAAA;AAAA;AAAA,SAQA;AAEJ;",
+  "names": []
+}

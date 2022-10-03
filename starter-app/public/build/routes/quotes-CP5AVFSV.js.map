@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/quotes.jsx"],
+  "sourcesContent": ["import { Outlet } from '@remix-run/react'\n\nexport default function Quotes() {\n  return (\n    <>\n      <Outlet />\n    </>\n  )\n}\n"],
+  "mappings": ";;;;;;;;;AAAA;AAEe,SAAR,SAA0B;AAC/B,SACE;AAAA,IACE,6DAAC,YAAD;AAAA;AAAA;AAAA;AAAA,WAAQ;AAAA,KADV;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
+  "names": []
+}

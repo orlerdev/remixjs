@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../app/root.jsx"],
+  "sourcesContent": ["import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'\n\nexport const meta = () => ({\n  charset: 'utf-8',\n  title: 'New Remix App',\n  viewport: 'width=device-width,initial-scale=1'\n})\n\nexport default function App() {\n  return (\n    <html lang='en'>\n    <head>\n      <title>{null}</title>\n      <Meta />\n      <Links />\n    </head>\n    <body>\n    <Outlet />\n    <ScrollRestoration />\n    <Scripts />\n    {process.env.NODE_ENV === 'development' ? <LiveReload /> : null}\n    </body>\n    </html>\n  )\n}\n\n"],
+  "mappings": ";;;;;;;;;;;;;;;;AAAA;AAEO,IAAM,OAAO,OAAO;AAAA,EACzB,SAAS;AAAA,EACT,OAAO;AAAA,EACP,UAAU;AACZ;AAEe,SAAR,MAAuB;AAC5B,SACE,mDAAC;AAAA,IAAK,MAAK;AAAA,IACX;AAAA,yDAAC;AAAA,QACC;AAAA,6DAAC;AAAA,YAAO;AAAA,aAAR;AAAA;AAAA;AAAA;AAAA,iBAAa;AAAA,UACb,mDAAC,UAAD;AAAA;AAAA;AAAA;AAAA,iBAAM;AAAA,UACN,mDAAC,WAAD;AAAA;AAAA;AAAA;AAAA,iBAAO;AAAA;AAAA,SAHT;AAAA;AAAA;AAAA;AAAA,aAIA;AAAA,MACA,mDAAC;AAAA,QACD;AAAA,6DAAC,YAAD;AAAA;AAAA;AAAA;AAAA,iBAAQ;AAAA,UACR,mDAAC,uBAAD;AAAA;AAAA;AAAA;AAAA,iBAAmB;AAAA,UACnB,mDAAC,aAAD;AAAA;AAAA;AAAA;AAAA,iBAAS;AAAA,UACR,OAAyC,mDAAC,gBAAD;AAAA;AAAA;AAAA;AAAA,iBAAY,IAAK;AAAA;AAAA,SAJ3D;AAAA;AAAA;AAAA;AAAA,aAKA;AAAA;AAAA,KAXA;AAAA;AAAA;AAAA;AAAA,SAYA;AAEJ;",
+  "names": []
+}
